@@ -30,12 +30,10 @@ docker run -p 4000:80 friendlyname
 # Run "appname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyname
 # Same thing, but in detached mode
- file:///home/abh/Desktop/Industrial_Project/Docker/Hello%20World/images/images5.png
-
+ 
 sudo docker push username/<appname>:tag
 # upload tagged image to registry
- file:///home/abh/Desktop/Industrial_Project/Docker/Hello%20World/images/images6.png
-
+ 
 Run container name mapping port 4000 to 80
 # sudo docker run -d -p host port:container port container name
 
